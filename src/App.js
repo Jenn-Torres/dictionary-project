@@ -12,7 +12,18 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer"> Coded with love for </footer>
+        <footer className="App-footer"> Coded with love for 
+        <a href="https://www.shecodes.io/graduates/57892-jennifer-torres" 
+           target="_blank"
+           rel="noreferrer"> Jennifer Torres </a> and is open sourced on{" "}
+           <a
+             href="https://github.com/Jenn-Torres/dictionary-project"
+             target="_blank"
+             rel="noreferrer"
+           >
+             GitHub.
+           </a> 
+        </footer>
       </div>
     </div>
   );
