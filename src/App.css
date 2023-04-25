@@ -1,3 +1,20 @@
+/* .App-background {
+  background-image: url("/src/dictionary-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+body {
+  background: cornflowerblue;
+}
+a {
+  color: bisque;
+  text-decoration: none;
+}
+.container {
+  border: 1px solid;
+  border-radius: 10px;
+}
+
 .App-logo {
   max-width: 300px;
   margin: 0 auto;
