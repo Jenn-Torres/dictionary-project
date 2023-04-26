@@ -1,18 +1,9 @@
-/* .App-background {
-  background-image: url("/src/dictionary-image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 body {
-  background: cornflowerblue;
+  background: rgb(152, 183, 240);
 }
 a {
-  color: bisque;
+  color: rgb(170, 111, 233);
   text-decoration: none;
-}
-.container {
-  border: 1px solid;
-  border-radius: 10px;
 }
 
 .App-logo {
