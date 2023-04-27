@@ -20,7 +20,7 @@ export default function Dictionary(props) {
   }
 
   function search() {
-    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword.trim()}`;
     axios.get(apiUrl).then(handleResponse);
 
     let sheCodesApiKey = "481ddobef3865a588e70t2ab3c3ada10";
